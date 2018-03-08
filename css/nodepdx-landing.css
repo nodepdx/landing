@@ -553,6 +553,13 @@ header.masthead .intro-text .intro-heading {
     padding: 0 30px 20px 20px;
     text-align: left;
   }
+  .timeline-image > .fa-stack {
+    line-height: 88px;
+  }
+
+  .timeline-image > .fa-4x {
+    font-size: 2em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -575,10 +582,12 @@ header.masthead .intro-text .intro-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
-}
-
-.timeline-image > .fa-stack {
-  line-height: 150px;
+  .timeline-image > .fa-stack {
+    line-height: 135px;
+  }
+  .timeline-image > .fa-4x {
+    font-size: 4em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -598,6 +607,12 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
+  }
+  .timeline-image > .fa-stack {
+    line-height: 150px;
+  }
+  .timeline-image > .fa-4x {
+    font-size: 4em;
   }
 }
 
